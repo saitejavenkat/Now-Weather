@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saitejavenkat.github.io/Now-Weather/static/css/main.9317dc32.css",
-    "main.js": "/saitejavenkat.github.io/Now-Weather/static/js/main.0186f607.js",
-    "static/js/453.69263600.chunk.js": "/saitejavenkat.github.io/Now-Weather/static/js/453.69263600.chunk.js",
-    "index.html": "/saitejavenkat.github.io/Now-Weather/index.html",
-    "main.9317dc32.css.map": "/saitejavenkat.github.io/Now-Weather/static/css/main.9317dc32.css.map",
-    "main.0186f607.js.map": "/saitejavenkat.github.io/Now-Weather/static/js/main.0186f607.js.map",
-    "453.69263600.chunk.js.map": "/saitejavenkat.github.io/Now-Weather/static/js/453.69263600.chunk.js.map"
+    "main.css": "/Now-Weather.git/static/css/main.d38775ae.css",
+    "main.js": "/Now-Weather.git/static/js/main.81de0ff5.js",
+    "static/js/453.69263600.chunk.js": "/Now-Weather.git/static/js/453.69263600.chunk.js",
+    "index.html": "/Now-Weather.git/index.html",
+    "main.d38775ae.css.map": "/Now-Weather.git/static/css/main.d38775ae.css.map",
+    "main.81de0ff5.js.map": "/Now-Weather.git/static/js/main.81de0ff5.js.map",
+    "453.69263600.chunk.js.map": "/Now-Weather.git/static/js/453.69263600.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9317dc32.css",
-    "static/js/main.0186f607.js"
+    "static/css/main.d38775ae.css",
+    "static/js/main.81de0ff5.js"
   ]
 }
