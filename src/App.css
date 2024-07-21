@@ -1,0 +1,412 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+#root{
+  max-width: 100%;
+  min-height: 1000px;
+}
+
+.Heading{
+ width: 100%;
+ height:400px;
+ background-image: url("https://images.pexels.com/photos/339614/pexels-photo-339614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ margin-bottom: 20px;
+}
+
+.Heading header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px rgb(247, 4, 255);
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  position: absolute;
+  justify-content: center;
+}
+
+.Heading .bg{
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(120deg,rgb(0, 0, 0),transparent);
+  opacity: 0.5;
+  height: 100%;
+}
+
+
+
+.form-dat{
+  width: 100%;
+  height: 50px;
+}
+form{
+  width: auto;
+  height: 50px;
+  float: right;
+}
+
+select{
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+option{
+  font-size: larger;
+  background-color: rgb(255, 255, 255);
+}
+
+select:focus-visible{
+  outline: none;
+  box-shadow: 5px 5px 70px rgb(247, 4, 255);
+}
+label{
+  font-size: x-large;
+  font-style: oblique;
+  font-weight: bolder;
+  color: rgb(0, 89, 255);
+  text-shadow: 5px 5px 10px rgb(0, 102, 255);
+}
+
+input{
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+
+input:focus-within{
+ 
+  box-shadow: 5px 5px 50px rgb(248, 96, 253);
+  outline-width: 10px;
+  outline-color: white;
+  inline-size: auto;
+}
+button{
+  width: 100px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  background:linear-gradient(90deg, #FFEB3B, #4CAF50);
+  border-radius: 20px;
+}
+button:hover{
+  background: linear-gradient(270deg, #FFEB3B, #4CAF50);
+  transition: 2s ease-in-out;
+  border: 2px solid black;
+}
+
+.data{
+  width: 100%;
+  min-height: 600px;
+  max-width: 100%;
+  position: relative;
+}
+video{
+  top:0;
+  left:0;
+  object-fit: cover;
+  width: 94%;
+  margin: 5% 3% 0% 3%;
+  border-radius: 50px;
+  border: none;
+  height:500PX;
+}
+
+video{
+  top:0;
+  z-index: -1;
+  left:0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  border-radius: 0px;
+}
+
+.city-heading{
+  margin-top: 20px;
+  width:100%;
+  height: 80px;
+  z-index: 2;
+  text-align: center;
+}
+
+.weather-re{
+z-index: 2;
+  width:100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.current-weather{
+ 
+  height: 350px;
+  width: 35%;
+}
+
+
+.city-heading>header{
+  color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xxx-large;
+  text-shadow: 5px 5px 10px rgb(247, 4, 255)
+}
+
+.heading{
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  display: inline;
+  text-shadow:  5px 5px 10px rgb(247, 4, 255);
+}
+.current-weather span{
+  font-size: 28px;
+  font-style: italic;
+  font-family: cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 10px #4CAF50;
+}
+
+.initial{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  z-index: 500;
+  left:0;
+  position: fixed;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.initial .parent{
+  width: 100px;
+  height:100px;
+  padding: 6px;
+  border:5px solid #9400D3;
+  border-radius: 50%;
+  border-bottom: none;
+  border-right: none;
+  animation-name: hi;
+  animation-duration: 1.5s;
+  animation-timing-function:ease-in;
+  animation-iteration-count: infinite;
+}
+
+
+.initial .child1{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border:5px solid #0000FF	;
+  border-radius: 50%;
+  padding: 6px;
+  border-bottom: none;
+  border-right: none;
+  border-bottom: none;
+
+}
+@keyframes hi {
+  0%{
+      transform: rotate(180deg);
+  } 
+  25%{
+      transform: rotate(-360deg);
+  }
+  50%{
+      transform: rotate(180deg);
+  }
+  75%{
+      transform: rotate(90deg);
+  }
+  100%{
+      transform: rotate(-180deg);
+  }
+  
+}
+.initial .child2{
+  display: inline-block;
+  width: 60px;
+  padding: 6px;
+  height: 60px;
+  border:5px solid #00FF00;
+  border-radius: 50%;
+  border-RIGHT: none;
+  border-bottom: none;
+}
+
+
+footer{
+  width:100%;
+  height:50px;
+  text-align: center;
+  align-items: baseline;
+ padding-top: 15px;
+  background:linear-gradient(180deg, rgb(250 89 255), rgb(255 255 255));
+  color: rgb(0, 0, 0);
+ font-weight: bolder;
+}
+.loc{
+  margin-left: 15px;
+}
+img{
+  width: 60px;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
+  width: 45%;
+  height: 350px;
+}
+.map{
+  width:100%;
+  height:100%;
+  position:absolute
+}
+p{
+  display: inline;
+}
+footer a img{
+  width: 20px;
+  margin-left: 5px;
+  background-color: white;
+}
+footer a img:hover{
+  background-color: black;
+}
+@media screen and(max-width:900px) {
+  .heading{
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+  }
+}
+
+@media screen and (max-width:750px)
+{
+  .weather-re{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    
+    }
+    .current-weather{
+      width:auto;
+    }
+    .data{
+      min-height: 1100px;
+    }
+    .weather-re{
+      min-height: 1020px;
+    }
+    video{
+      width: 100%;
+      height: 55%;
+    }
+    .current-weather~div{
+      width: 100%;
+      height: 420px;
+    }
+    .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
+      height: 420px;
+      width: 80%;
+    }
+    .form-dat{
+      height: 90px;
+    }
+} 
+
+@media screen and (max-width:670px)
+{
+  button{
+    margin: 2% 38%;
+  }
+  label{
+    font-size: large;
+  }
+ 
+}
+
+@media screen and (max-width:530px){
+  input{
+    width: 100px;
+    margin-right: 5px;
+  }
+  
+.Heading header {
+  font-size: 80px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width:430px){
+  select{
+    width: 120px;
+  }
+}
+
+@media screen and (max-width:387px){
+  .form-dat{
+    height: 130px;
+    position: relative;
+  }
+  label,.loc{
+    margin-left: 0%;
+  }
+  input,select{
+    width: 150px;
+    margin-bottom: 8px;
+  }
+  button{
+    margin-left: 30%;
+   
+  }
+  form{
+    margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: 130px;
+        left: 18%;
+        position: absolute;
+  }
+}
+
+@media screen and (max-width:315px){
+  label,.loc{
+    margin-left: 5%;
+  }
+  .Heading>header{
+    font-size: 80px;
+    
+  }
+}
+
+@media screen and (min-height:1030px) 
+{
+  footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+}
