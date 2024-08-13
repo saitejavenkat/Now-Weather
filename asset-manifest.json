@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Now-Weather.git/static/css/main.d38775ae.css",
-    "main.js": "/Now-Weather.git/static/js/main.81de0ff5.js",
-    "static/js/453.69263600.chunk.js": "/Now-Weather.git/static/js/453.69263600.chunk.js",
-    "index.html": "/Now-Weather.git/index.html",
-    "main.d38775ae.css.map": "/Now-Weather.git/static/css/main.d38775ae.css.map",
-    "main.81de0ff5.js.map": "/Now-Weather.git/static/js/main.81de0ff5.js.map",
-    "453.69263600.chunk.js.map": "/Now-Weather.git/static/js/453.69263600.chunk.js.map"
+    "main.css": "/Now-Weather/static/css/main.5aae64a6.css",
+    "main.js": "/Now-Weather/static/js/main.7e02e5b2.js",
+    "static/js/453.69263600.chunk.js": "/Now-Weather/static/js/453.69263600.chunk.js",
+    "index.html": "/Now-Weather/index.html",
+    "main.5aae64a6.css.map": "/Now-Weather/static/css/main.5aae64a6.css.map",
+    "main.7e02e5b2.js.map": "/Now-Weather/static/js/main.7e02e5b2.js.map",
+    "453.69263600.chunk.js.map": "/Now-Weather/static/js/453.69263600.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d38775ae.css",
-    "static/js/main.81de0ff5.js"
+    "static/css/main.5aae64a6.css",
+    "static/js/main.7e02e5b2.js"
   ]
 }
